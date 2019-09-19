@@ -1,0 +1,13 @@
+# c.f. https://dependabot.com/docs/config-file/
+version: 1
+update_configs:
+  - package_manager: "go:modules"
+    directory: "/"
+    update_schedule: "daily"
+    allowed_updates:
+      - match:
+          update_type: "all"
+    automerged_updates:
+      - match:
+          dependency_type: "all"
+          update_type: "all"
