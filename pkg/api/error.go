@@ -26,5 +26,5 @@ func apiErrorHandler(err error, c echo.Context) {
 		RespondedAt: time.Now().Format(time.RFC3339),
 		Message:     message,
 	}
-	c.JSONPretty(code, body, "  ")
+	_ = c.JSONPretty(code, body, "  ")
 }
