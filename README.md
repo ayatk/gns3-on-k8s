@@ -1,2 +1,3 @@
-# gns3-on-k8s
-GNS3 on Kubernetes
+# GNS3 Server on Kubernetes
+
+High scalability GNS3 Server.
