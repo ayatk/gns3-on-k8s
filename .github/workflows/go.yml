@@ -1,9 +1,6 @@
 name: reviewdog on GitHub Action
 
-on:
-  pull_request:
-    paths:
-      - '*.go'
+on: [pull_request]
 
 jobs:
   golangci-lint:
